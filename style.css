@@ -203,7 +203,7 @@ iframe {
   display: block;
 }
 .profile-img {
-  width: 600px;
+  width: 570px;
   border-radius: 100%;
   border: 1px solid #333;
 }
@@ -212,5 +212,6 @@ iframe {
   margin-left: 25px;
 
 }
+
 
 
