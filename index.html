@@ -3,68 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <title>CHIHUAHUAS</title>
+    <title>My Personal Homepage</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img
-      src="196-1962907_animals-without-neck-meme-png-download-fat-chihuahua.png"
-      alt="fat_chihuahua.png"
-      width="300px"
-      height="200px"
-    />
-    <title>Some interesting facts about chihuahua</title>
-    <ol>
-      <li>Chihuahuas have long lifespans</li>
-      <li>Chihuahuas are really loyal</li>
-      <li>Chihuahuas have playful personalities</li>
-    </ol>
+    <header>
+      <h1>My Homepage</h1>
+    </header>
 
-    <iframe src=https://www.youtube.com/embed/pyBEvMXVfL0 title=RAHH></iframe>
+    <div class="container">
+      <nav class="sidebar">
+        <ul>
+          <li><a href="hobby.html" target="content-frame">Info</a></li>
+          <li>
+            <a href="amina.html" target="content-frame">Calendar</a>
+          </li>
+          <li>
+            <a href="video.html" target="content-frame">Featured Video</a>
+          </li>
+        </ul>
+      </nav>
+      <main class="content" id="main-content">
+        <img src="196-1962907_animals-without-neck-meme-png-download-fat-chihuahua.png" name="content-frame"></img>
+      </main>
+    </div>
 
-   <hr>
-    <div>
-<form>
-    <section class = "form-section>
-      <h3>Contact me</h3>
-      <form id = "contact form">
-      <div class = "form row">
-        <label><strong>Name:</strong></label>
-        <input type = "text" name = "name" placeholder = "Enter your name" required>
-        <label><strong>Age:</strong></label>
-        <input type = "number" name = "age" placeholder = "Enter your age" required>
-        <br/><br/>
-
-        <label><strong>Gender:</strong></label>
-        <input type = "radio" id="male" name="gender" value="male">
-        <label for = "male">Male</label>
-        <input type = "radio" id="female" name="gender" value="female">
-        <label for = "male">Female</label>
-        <br/><br/>
-
-        <label><strong>a</strong></label>
-        <input type = "checkbox" id="reading" name="hobbies" value="reading">
-        <label for="reading">pepe</label>
-        <input type="checkbox" id="traveling" name="hobbies" value="traveling">
-        <label for="traveling">shs</label>
-        <input type="checkbox" id="sports" name="hobbies" value="sports">
-        <label for="sports">w</label>
-        <br/><br/>
-
-        <label><strong>Email address</strong></label>
-        <input type = "text" name = "email" placeholder = "Enter your email here" required>
-        <br/><br/>
-
-        
+    <section class="form-section">
+      <h3>Contact Me</h3>
+      <form id="contact-form">
+        <div class="form-row">
+          <input type="text" placeholder="Full Name" required />
+          <input type="number" placeholder="Age" required />
+        </div>
+        <div class="form-row">
+          <select required>
+            <option value="" disabled selected>Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <input type="email" placeholder="Email Address" required />
+        </div>
         <textarea
-          id= "comment" placeholder= "Your reviews 0-0" rows="4"
+          placeholder="Write your questions or comments here..."
+          rows="5"
         ></textarea>
-
- 
-    <button type="submit">Submit</button>
-  </form>
-      </div>
+        <button type="submit">Submit Message</button>
+      </form>
+    </section>
   </body>
 </html>
+
 
 
 
