@@ -16,7 +16,7 @@ body {
 header {
   background: #463f17;
   color: #fff;
-  padding: 2.5rem;
+  padding: 2rem;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -32,7 +32,7 @@ header {
 
 /* Sidebar Navigation */
 .sidebar {
-  width: 280px;
+  width: 200px;
   background: #4a491f;
   color: white;
   text-decoration: none;
@@ -213,6 +213,7 @@ iframe {
   margin-left: 25px;
 
 }
+
 
 
 
