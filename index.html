@@ -32,19 +32,30 @@
       <h3>Contact Me</h3>
       <form id="contact-form">
         <div class="form-row">
-          <input type="text" placeholder="Full Name" required />
-          <input type="number" placeholder="Age" required />
+           <label><strong>Name:</strong></label>
+          <input type="text" placeholder="Enter your name (￣▽￣)ノ" required />
+           <label><strong>Age:</strong></label>
+          <input type="number" placeholder="Age ( -_・)" required />
         </div>
         <div class="form-row">
           <select required>
-            <option value="" disabled selected>Select Gender</option>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
+             <label><strong>Gender:</strong></label>
+           <input type = "radio" id="male" name="gender" value="male">
+        <label for = "male">Male</label>
+        <input type = "radio" id="female" name="gender" value="female">
+        <label for = "male">Female</label>
           </select>
+          <label><strong>a</strong></label>
+        <input type = "checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">V●ᴥ●V</label>
+        <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+        <label for="traveling">(っ˘ڡ˘ς) </label>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">[̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]</label>
           <input type="email" placeholder="Email Address" required />
         </div>
         <textarea
-          placeholder="Write your questions or comments here..."
+          placeholder="( ´ ∀ )ノ～ ♡ Write your questions or comments here..."
           rows="5"
         ></textarea>
         <button type="submit">Submit Message</button>
@@ -52,6 +63,7 @@
     </section>
   </body>
 </html>
+
 
 
 
