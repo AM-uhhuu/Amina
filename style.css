@@ -36,8 +36,7 @@ header {
   background: #4a491f;
   color: white;
   text-decoration: none;
-  padding: 20px 0;
-  margin-left: 10px;
+  padding: 20px;
 }
 
 .sidebar ul {
@@ -214,6 +213,7 @@ iframe {
   margin-left: 25px;
 
 }
+
 
 
 
